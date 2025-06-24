@@ -1,12 +1,46 @@
-# React + Vite
+# 🎮 Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, responsive Tic Tac Toe game built with React and Vite, featuring modern UI design, dark mode support, and smooth animations.
 
-Currently, two official plugins are available:
+![Tic Tac Toe Game Screenshot](https://via.placeholder.com/800x600/4F46E5/FFFFFF?text=Tic+Tac+Toe+Game)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 🎯 Core Gameplay
+- **Classic Tic Tac Toe** - Traditional 3x3 grid gameplay
+- **Two Player Mode** - Alternating turns between Player X and Player O
+- **Win Detection** - Automatic detection of winning combinations (rows, columns, diagonals)
+- **Draw Detection** - Handles tie games when the board is full
+- **Game Reset** - Reset button to start a new game anytime
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Visual Features
+- **Modern UI Design** - Clean, gradient-based interface with rounded corners
+- **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
+- **Smooth Animations** - Hover effects, button scaling, and transitions
+- **Strike Line Animation** - Animated line that draws across winning combinations
+- **Winner Modal** - Beautiful popup celebrating the winner with emojis and animations
+
+### 🌙 Theme Support
+- **Dark/Light Mode** - Toggle between light and dark themes
+- **System Preference Detection** - Automatically detects your system's theme preference
+- **Persistent Theme** - Remembers your theme choice in localStorage
+- **Smooth Theme Transitions** - Animated transitions between themes
+
+### 📱 Responsive Design
+- **Mobile-First** - Optimized for mobile devices
+- **Adaptive Board Size** - Game board scales based on screen size
+- **Touch-Friendly** - Large, easy-to-tap buttons on mobile
+- **Flexible Layout** - Adapts to different screen orientations
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Node.js** (version 16 or higher)
+- **npm** or **yarn** package manager
+
+### Installation
+
+1. **Clone or download the project**
+   ```bash
+   # If you have the project files, navigate to the directory
+   cd tic-tac-toe-game
