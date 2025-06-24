@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { Sun, Moon, RotateCcw, RefreshCcw } from 'lucide-react'
+import { Sun, Moon, RotateCcw, } from 'lucide-react'
 
 export default function TicTacToe() {
   const [board, setBoard] = useState(Array(9).fill(null))
@@ -120,7 +120,7 @@ export default function TicTacToe() {
         <div className="w-full max-w-md mx-auto text-center">
           {/* Header */}
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+            <h1 className="text-4xl md:text-5xl text-blue-500 dark:text-blue-400 font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text  mb-2">
               Tic Tac Toe
             </h1>
             <p className="text-gray-600 dark:text-gray-400">Classic strategy game</p>
