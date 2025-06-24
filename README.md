@@ -2,8 +2,6 @@
 
 A beautiful, responsive Tic Tac Toe game built with React and Vite, featuring modern UI design, dark mode support, and smooth animations.
 
-![Tic Tac Toe Game Screenshot](https://via.placeholder.com/800x600/4F46E5/FFFFFF?text=Tic+Tac+Toe+Game)
-
 ## ✨ Features
 
 ### 🎯 Core Gameplay
